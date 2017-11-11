@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+            <icon-menu>
+        <i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    light-weight wallet
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    strong mobilephone
+                </tip>
+            </i>
+        </i>
+        <i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    screen
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    mobilephone
+                </tip>
+            </i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    nice notebook
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    screen
+                </tip>
+            </i>
+            <i>
+                <icon>
+                    //a.oxm1.cc/img/fox.jpg
+                </icon>
+                <title>
+                    good watch
+                </title>
+                <href>
+                    //a.oxm1.cc/img/fox.jpg
+                </href>
+                <tip>
+                    screen
+                </tip>
+            </i>
+        </i>
+    </icon-menu>
+    </data>
+</root>
