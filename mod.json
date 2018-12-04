@@ -1,6 +1,10 @@
 {
   "name": "ctrip-grid-menu",
   "version": "0.0.1",
-  "apiDependencies": ["icon-menu"]
+  "apiDependencies": [
+  	{
+  		"name":"ui-entry"
+  	}
+  ]
 }
 

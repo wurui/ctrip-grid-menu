@@ -2,18 +2,18 @@
     <xsl:template match="/root" name="wurui.ctrip-grid-menu">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-ctrip-grid-menu" ox-mod="ctrip-grid-menu">
-            <xsl:for-each select="data/icon-menu/i">
-            	<div class="group">
-            		<xsl:for-each select="i">
-            			<a class="grid" href="{href}">
-            				<xsl:if test="icon !=''">
-            					<xsl:attribute name="style">background-image:url(<xsl:value-of select="icon"/>)</xsl:attribute>
-            				</xsl:if>
-            				<xsl:value-of select="title"/>
-            			</a>
-            		</xsl:for-each>
-            	</div>
-            </xsl:for-each>
+            <div class="group">
+                <xsl:for-each select="data/ui-entry/i[position() &lt; 16]">
+                	                		
+        			<a class="grid" href="{href}">
+                        <xsl:if test="position() mod 5 = 1">
+                         <span class="bg-{format-number(position() div 5,'#' )}"></span>
+                        </xsl:if>
+        				<span><xsl:value-of select="title"/></span>
+        			</a>
+                	
+                </xsl:for-each>
+            </div>
         </div>
     </xsl:template>
 </xsl:stylesheet>

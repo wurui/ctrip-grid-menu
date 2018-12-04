@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
+    <p>
+        <title>ctrip-grid-menu demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+        <ui-entry>
+        
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9h6dii0Tj9v6o37sRft74Aj7u-415.png</icon>
+                <title>酒店</title>
+                <href></href>
+                <tip></tip>
+            </i>
+            <i>
+                <icon></icon>
+                <title>海外酒店</title>
+                <href></href>
+                <tip></tip>
+            </i>
+            <i>
+                <icon></icon>
+                <title>团购</title>
+                <href></href>
+                <tip></tip>
+            </i>
+            <i>
+                <icon></icon>
+                <title>特价酒店</title>
+                <href></href>
+                <tip></tip>
+            </i>
+            <i>
+                <icon></icon>
+                <title>民宿·客栈</title>
+                <href></href>
+                <tip></tip>
+            </i>
+
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9h66o9mTj9v6uxg6Rt8ukAli3-434.png</icon>
+                <title>机票</title>
+                <href></href>
+                <tip></tip>
+            </i>  
+            <i>
+                <icon></icon>
+                <title>火车票</title>
+                <href></href>
+                <tip></tip>
+            </i>  
+            <i>
+                <icon></icon>
+                <title>汽车票·船票</title>
+                <href></href>
+                <tip></tip>
+            </i>
+            <i>
+                <icon></icon>
+                <title>特价机票</title>
+                <href></href>
+                <tip></tip>
+            </i>
+            <i>
+                <icon></icon>
+                <title>专车·租车</title>
+                <href></href>
+                <tip></tip>
+            </i>        
+           
+            <i>
+                <icon>http://i.oxm1.cc/uploads/git/wurui/img/2a9h659ydTj9v6wbrfRmvu3Ahd6-598.png</icon>
+                <title>旅游</title>
+                <href></href>
+                <tip>11·11抢5折神券</tip>
+            </i>  
+            <i>
+                <icon></icon>
+                <title>门票</title>
+                <href></href>
+                <tip></tip>
+            </i>  
+            <i>
+                <icon></icon>
+                <title>邮轮旅行</title>
+                <href></href>
+                <tip></tip>
+            </i>
+            <i>
+                <icon></icon>
+                <title>目的地攻略</title>
+                <href></href>
+                <tip></tip>
+            </i>
+            <i>
+                <icon></icon>
+                <title>定制旅行</title>
+                <href></href>
+                <tip></tip>
+            </i>        
+            
+        
+        </ui-entry>
+    </data>
+</root>

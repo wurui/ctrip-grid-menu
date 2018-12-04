@@ -1,9 +1,17 @@
 .oxmod-ctrip-grid-menu{
 /* CSS */
-	margin:3px;
+	//margin:5px 0;
 	.group{
 		overflow: hidden;
-		height: 81px;
+		//border:solid 3px #fff;
+		position: relative;
+		margin:3px;
+		
+		border-radius: 10px;
+		//height: 81px;
+		//background: -webkit-linear-gradient(left, #fa5f55, #ff9644);
+				/*
+		
 		&:nth-child(1){
 			background: -webkit-linear-gradient(left, #fa5f55, #ff9644);
 			border-top-left-radius: 10px;
@@ -19,6 +27,23 @@
 			border-bottom-left-radius: 10px;
 			border-bottom-right-radius: 10px;
 		}
+		*/
+	}
+	.bg-0,.bg-1,.bg-2{
+		position: absolute;
+		height: 80px;
+		width: 100%;
+		z-index: -1;
+
+	}
+	.bg-0{
+		background: -webkit-linear-gradient(left, #fa5f55, #ff9644);
+	}
+	.bg-1{
+		background: -webkit-linear-gradient(left, #4c90ed, #3abdf1);
+	}
+	.bg-2{
+		background: -webkit-linear-gradient(left, #35c2a9, #6ad556);
 	}
 	.grid{
 		width:33%;
@@ -35,9 +60,16 @@
 		-webkit-background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center bottom;
-		&:first-child{
+		&:nth-child(5n - 4){
 			height:81px;
-			border-width:0;
+
+			//border-width:0;
+			display: -webkit-flex;
+			-webkit-flex-direction:column;
+			-webkit-justify-content: center;
+			display: flex;
+			flex-direction:column;
+			justify-content: center;
 		}
 	}
  }
